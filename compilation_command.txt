@@ -1,0 +1,1 @@
+gcc -I./inc -L./lib main.c -Wl,-rpath=./lib -o main.out -lQlearning
